@@ -1,6 +1,19 @@
 {
+  "name": "reactkelvin",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
-    "@tailwindcss/vite": "^4.1.14",
-    "tailwindcss": "^4.1.14"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^4.1.14",
+    "@tailwindcss/vite": "^4.1.14"
+  },
+  "devDependencies": {
+    "vite": "^4.5.0"
   }
 }
